@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>adminSergeev</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,700"
+    />
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="fonts/fontawesome/style.css" />
+    <link rel="stylesheet" href="css/default.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link header-nav__link header-logo" href="#"
+                    >Sergeev<span class="header-logo__strong"
+                      >Dashboard</span
+                    ></a
+                  >
+                </li>
+                <li class="nav-item" data-header="sidebar">
+                  <a
+                    data-header="sidebar-link"
+                    class="nav-link header-nav__link"
+                    href="#"
+                    ><i class="fas fa-outdent"></i
+                  ></a>
+                  <a
+                    data-header="sidebar-link"
+                    class="nav-link header-nav__link d-none"
+                    href="#"
+                    ><i class="fas fa-indent"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-6">
+              <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link header-nav__link" href="#"
+                    ><i class="far fa-bell"
+                      ><span class="i-indecator">2</span></i
+                    ></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link header-nav__link" href="#"
+                    ><i class="far fa-envelope"></i
+                  ></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link header-nav__link" href="#"
+                    >Выход <i class="fas fa-sign-out-alt"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="page" data-page="container">
+        <div class="sidebar" data-sidebar="container">
+          <div class="sidebar-header">
+            <div class="sidebar-header__avatar">
+              <img
+                src="images/avatar/1/man_1.png"
+                alt="Аватар"
+                class="sidebar-header__avatar-image"
+              />
+            </div>
+            <div class="sidebar-header__title">
+              <a href="#" class="sidebar-header__title-name"
+                ><i class="fas fa-user-cog"></i> Дмитрий Сергеев</a
+              >
+              <div class="sidebar-header__title-function">Веб-программист</div>
+            </div>
+            <div class="sidebar-header__nav d-md-none">
+              <label for="input-sidebar-burger">
+                <input
+                  id="input-sidebar-burger"
+                  class="sidebar-header__burger-input"
+                  type="checkbox"
+                />
+                <i class="fas fa-bars" data-sidebar="burger"></i>
+                <i class="fas fa-times" data-sidebar="burger"></i>
+              </label>
+            </div>
+          </div>
+
+          <nav data-sidebar="nav" class="idebar-nav">
+            <ul id="sidebar-nav__parent-1">
+              <li>
+                <a href="#" class="sidebar-nav__link"
+                  ><i class="fas fa-user-tie sidebar-nav__link-icon-first"></i
+                  >Пользователи</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#sidebar-nav__link-3"
+                  aria-expanded="false"
+                  data-toggle="collapse"
+                  class="sidebar-nav__link"
+                  ><i
+                    class="fas fa-address-book sidebar-nav__link-icon-first"
+                  ></i
+                  >Справочники
+                  <i class="fas fa-chevron-down sidebar-nav__link-icon-last"></i
+                ></a>
+                <ul
+                  id="sidebar-nav__link-3"
+                  class="list-unstyled collapse"
+                  data-parent="#sidebar-nav__parent-1"
+                  aria-expanded="true"
+                >
+                  <li>
+                    <a href="#" class="sidebar-nav__link"
+                      ><i
+                        class="far fa-id-card sidebar-nav__link-icon-first"
+                      ></i
+                      >Справочник 1</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="sidebar-nav__link"
+                      ><i
+                        class="far fa-id-card sidebar-nav__link-icon-first"
+                      ></i
+                      >Справочник 2</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="sidebar-nav__link"
+                      ><i class="sidebar-nav__link-icon-first"></i>Справочник 3</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#sidebar-nav__link-1-1" aria-expanded="false" data-toggle="collapse" class="sidebar-nav__link"
+                      ><i
+                      class="far fa-id-card sidebar-nav__link-icon-first"
+                    ></i
+                    >Справочник 555<i class="fas fa-chevron-down sidebar-nav__link-icon-last"></i
+                        ></a
+                    >
+
+                    <ul id="sidebar-nav__link-1-1" 
+                    class="list-unstyled collapse"
+                    aria-expanded="true"                    
+                    >
+                      <li>
+                        <a href="#" class="sidebar-nav__link"
+                          ><i
+                            class="far fa-id-card sidebar-nav__link-icon-first"
+                          ></i
+                          >Возможно подсправочник</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="sidebar-nav__link"
+                          ><i class="sidebar-nav__link-icon-first"></i>Возможно
+                          подсправочник</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#sidebar-nav__link-1-1-1" aria-expanded="false" data-toggle="collapse" class="sidebar-nav__link"
+                        ><i
+                        class="far fa-id-card sidebar-nav__link-icon-first"
+                      ></i
+                      >Возможно
+                        подсправочник 999<i class="fas fa-chevron-down sidebar-nav__link-icon-last"></i
+                          ></a
+                      >
+  
+                      <ul id="sidebar-nav__link-1-1-1" 
+                      class="list-unstyled collapse"
+                      aria-expanded="true"                    
+                      >
+                        <li>
+                          <a href="#" class="sidebar-nav__link"
+                            ><i
+                              class="far fa-id-card sidebar-nav__link-icon-first"
+                            ></i
+                            >Возможно подсправочник</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#" class="sidebar-nav__link"
+                            ><i class="sidebar-nav__link-icon-first"></i>Возможно
+                            подсправочник</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#" class="sidebar-nav__link"
+                            ><i class="sidebar-nav__link-icon-first"></i>Возможно
+                            подсправочник</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#" class="sidebar-nav__link"
+                            ><i class="sidebar-nav__link-icon-first"></i>Возможно
+                            подсправочник</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#" class="sidebar-nav__link"
+                            ><i class="sidebar-nav__link-icon-first"></i>Возможно
+                            подсправочник</a
+                          >
+                        </li>
+                      </ul>
+                      </li>
+                      <li>
+                        <a href="#" class="sidebar-nav__link"
+                          ><i class="sidebar-nav__link-icon-first"></i>Возможно
+                          подсправочник</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="sidebar-nav__link"
+                          ><i class="sidebar-nav__link-icon-first"></i>Возможно
+                          подсправочник</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <a href="#" class="sidebar-nav__link"
+                      ><i class="sidebar-nav__link-icon-first"></i>Справочник
+                      2</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="sidebar-nav__link"
+                      ><i class="sidebar-nav__link-icon-first"></i>Справочник
+                      3</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li>
+                <a
+                  href="#sidebar-nav__link-4"
+                  aria-expanded="false"
+                  data-toggle="collapse"
+                  class="sidebar-nav__link"
+                  ><i class="fas fa-list-alt sidebar-nav__link-icon-first"></i
+                  >Меню
+                  <i class="fas fa-chevron-down sidebar-nav__link-icon-last"></i
+                ></a>
+                <ul
+                  id="sidebar-nav__link-4"
+                  class="list-unstyled collapse"
+                  data-parent="#sidebar-nav__parent-1"
+                  aria-expanded="true"
+                >
+                  <li>
+                    <a href="#" class="sidebar-nav__link"
+                      ><i class="sidebar-nav__link-icon-first"></i>Верхнее
+                      меню</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="sidebar-nav__link"
+                      ><i class="sidebar-nav__link-icon-first"></i
+                      >Подразделения</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" class="sidebar-nav__link"
+                  ><i class="fas fa-shapes sidebar-nav__link-icon-first"></i
+                  >Модули</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#sidebar-nav__link-6"
+                  aria-expanded="false"
+                  data-toggle="collapse"
+                  class="sidebar-nav__link"
+                  ><i class="fas fa-cog sidebar-nav__link-icon-first"></i
+                  >Настройки
+                  <i class="fas fa-chevron-down sidebar-nav__link-icon-last"></i
+                ></a>
+                <ul
+                  id="sidebar-nav__link-6"
+                  class="list-unstyled collapse"
+                  data-parent="#sidebar-nav__parent-1"
+                  aria-expanded="true"
+                >
+                  <li>
+                    <a href="#" class="sidebar-nav__link"
+                      ><i class="sidebar-nav__link-icon-first"></i>Настройка
+                      1</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="sidebar-nav__link"
+                      ><i class="sidebar-nav__link-icon-first"></i>Настройка
+                      2</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="content">
+          <header class="content-header">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-12">
+                  <h2 class="content-header__h2">Профиль</h2>
+                </div>
+              </div>
+            </div>
+          </header>
+
+          <section data-item="container">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-12 col-lg-3">
+                  <div class="profile-avatar">
+                    <img
+                      src="images/avatar/1/man_1.png"
+                      alt="Аватар"
+                      class="profile-avatar__image"
+                      data-profile-image="avatar"
+                    />
+                  </div>
+
+                  <button
+                    class="btn btn-primary btn-block mb-2 mt-2"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseProfileAvatar"
+                    aria-expanded="false"
+                    aria-controls="collapseProfileAvatar"
+                  >
+                    Выбрать аватар
+                  </button>
+                  <div class="collapse" id="collapseProfileAvatar">
+                    <div class="card card-body">
+                      <div class="row">
+                        <div class="col-4 col-sm-3 col-lg-6">
+                          <div
+                            class="custom-control custom-radio custom-control-inline"
+                          >
+                            <input
+                              type="radio"
+                              id="profileAvatarRadioMan_1"
+                              name="profileAvatarRadio"
+                              class="custom-control-input"
+                            />
+                            <label
+                              class="custom-control-label"
+                              for="profileAvatarRadioMan_1"
+                              ><img
+                                src="images/avatar/1/man_1.png"
+                                alt="Аватар"
+                                class="profile-avatar__radio-image"
+                            /></label>
+                          </div>
+                        </div>
+                        <div class="col-4 col-sm-3 col-lg-6">
+                          <div
+                            class="custom-control custom-radio custom-control-inline"
+                          >
+                            <input
+                              type="radio"
+                              id="profileAvatarRadioMan_2"
+                              name="profileAvatarRadio"
+                              class="custom-control-input"
+                            />
+                            <label
+                              class="custom-control-label"
+                              for="profileAvatarRadioMan_2"
+                            >
+                              <img
+                                src="images/avatar/1/man_2.png"
+                                alt="Аватар"
+                                class="profile-avatar__radio-image"
+                            /></label>
+                          </div>
+                        </div>
+
+                        <div class="col-4 col-sm-3 col-lg-6">
+                          <div
+                            class="custom-control custom-radio custom-control-inline"
+                          >
+                            <input
+                              type="radio"
+                              id="profileAvatarRadioMan_3"
+                              name="profileAvatarRadio"
+                              class="custom-control-input"
+                            />
+                            <label
+                              class="custom-control-label"
+                              for="profileAvatarRadioMan_3"
+                              ><img
+                                src="images/avatar/1/man_3.png"
+                                alt="Аватар"
+                                class="profile-avatar__radio-image"
+                            /></label>
+                          </div>
+                        </div>
+                        <div class="col-4 col-sm-3 col-lg-6">
+                          <div
+                            class="custom-control custom-radio custom-control-inline"
+                          >
+                            <input
+                              type="radio"
+                              id="profileAvatarRadioMan_4"
+                              name="profileAvatarRadio"
+                              class="custom-control-input"
+                            />
+                            <label
+                              class="custom-control-label"
+                              for="profileAvatarRadioMan_4"
+                            >
+                              <img
+                                src="images/avatar/1/man_4.png"
+                                alt="Аватар"
+                                class="profile-avatar__radio-image"
+                            /></label>
+                          </div>
+                        </div>
+
+                        <div class="col-4 col-sm-3 col-lg-6">
+                          <div
+                            class="custom-control custom-radio custom-control-inline"
+                          >
+                            <input
+                              type="radio"
+                              id="profileAvatarRadioGirl_1"
+                              name="profileAvatarRadio"
+                              class="custom-control-input"
+                            />
+                            <label
+                              class="custom-control-label"
+                              for="profileAvatarRadioGirl_1"
+                              ><img
+                                src="images/avatar/1/girl_1.png"
+                                alt="Аватар"
+                                class="profile-avatar__radio-image"
+                            /></label>
+                          </div>
+                        </div>
+                        <div class="col-4 col-sm-3 col-lg-6">
+                          <div
+                            class="custom-control custom-radio custom-control-inline"
+                          >
+                            <input
+                              type="radio"
+                              id="profileAvatarRadioGirl_2"
+                              name="profileAvatarRadio"
+                              class="custom-control-input"
+                            />
+                            <label
+                              class="custom-control-label"
+                              for="profileAvatarRadioGirl_2"
+                            >
+                              <img
+                                src="images/avatar/1/girl_2.png"
+                                alt="Аватар"
+                                class="profile-avatar__radio-image"
+                            /></label>
+                          </div>
+                        </div>
+
+                        <div class="col-4 col-sm-3 col-lg-6">
+                          <div
+                            class="custom-control custom-radio custom-control-inline"
+                          >
+                            <input
+                              type="radio"
+                              id="profileAvatarRadioGirl_3"
+                              name="profileAvatarRadio"
+                              class="custom-control-input"
+                            />
+                            <label
+                              class="custom-control-label"
+                              for="profileAvatarRadioGirl_3"
+                              ><img
+                                src="images/avatar/1/girl_3.png"
+                                alt="Аватар"
+                                class="profile-avatar__radio-image"
+                            /></label>
+                          </div>
+                        </div>
+                        <div class="col-4 col-sm-3 col-lg-6">
+                          <div
+                            class="custom-control custom-radio custom-control-inline"
+                          >
+                            <input
+                              type="radio"
+                              id="profileAvatarRadioGirl_4"
+                              name="profileAvatarRadio"
+                              class="custom-control-input"
+                            />
+                            <label
+                              class="custom-control-label"
+                              for="profileAvatarRadioGirl_4"
+                            >
+                              <img
+                                src="images/avatar/1/girl_4.png"
+                                alt="Аватар"
+                                class="profile-avatar__radio-image"
+                            /></label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-9">
+                  <div class="form-group">
+                    Email
+                    <input
+                      type="text"
+                      class="form-control"
+                      value="Email"
+                      disabled
+                    />
+                  </div>
+                  <div class="form-group">
+                    Имя
+                    <input
+                      name="name"
+                      type="text"
+                      class="form-control"
+                      value="Имя"
+                    />
+                  </div>
+                  <div class="form-group">
+                    Фамилия
+                    <input
+                      name="surname"
+                      type="text"
+                      class="form-control"
+                      value="Фамилия"
+                    />
+                  </div>
+                  <div class="form-group">
+                    Должность
+                    <input
+                      name="function"
+                      type="text"
+                      class="form-control"
+                      value="Должность"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <div class="form-group text-center">
+                    <button
+                      data-edite="profile"
+                      type="button"
+                      class="btn btn-success"
+                    >
+                      Сохранить
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <footer class="content-footer">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <div class="content-footer__copyright">
+                    adminSergeev © 2019
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <div class="content-footer__banners"></div>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+
+    <!-- Javascript files-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="components/tinymce/tinymce.min.js"></script>
+    <script src="js/cookie.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/default.js"></script>
+  </body>
+</html>
