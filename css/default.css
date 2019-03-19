@@ -367,12 +367,6 @@ ul ul .sidebar-nav__link:hover {
 .sidebar-small .sidebar-nav__link:before {
   display: none;
 }
-/*
-.sidebar-small ul ul .sidebar-nav__link-icon-first,
-.sidebar-small ul ul .sidebar-nav__link-icon-last {
-  display: none;display: none;
-}
-*/
 .sidebar-small ul ul .sidebar-nav__link + ul {
   margin: 0;
 }
@@ -402,6 +396,7 @@ ul ul .sidebar-nav__link:hover {
   }
   .header-logo {
     margin: 0 0 5px 0;
+    text-align: center;
   }
   .header .nav {
     -webkit-box-pack: center !important;
